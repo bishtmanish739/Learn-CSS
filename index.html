@@ -4,17 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 5</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            height: 50vh;
+            background-color: aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .box1{
+            height: 250px;
+            width: 350px;
+            background-color: blue;
+            order: 0;
+            align-self: flex-end;
+        }
+        .box2{
+            height: 250px;
+           width: 350px;
+            background-color: red;
+            border: 2px solid black;
+
+        }
+    </style>
 </head>
 <body>
-    <div class="box1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptates quia atque odio consectetur, aut harum nemo ex ut nulla.
-    </div>
-    <div class="box2">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sapiente minima quos, ducimus recusandae qui dolorum vitae ipsa, nostrum dolore repellat. Mollitia rem ea corrupti ab? Saepe accusantium natus asperiores.
-    </div>
-    
+    <header>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1">
+                box1
+            </div>
+            <div class="box2">
+                box2
+            </div>
+            <div class="box2">
+                box3
+            </div>
+            <div class="box2">
+                box4
+            </div>
+        </div>
+
+    </main>
     
 </body>
 </html>
