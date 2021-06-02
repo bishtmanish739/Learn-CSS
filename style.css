@@ -1,0 +1,28 @@
+
+        h1{
+            color: rgb(219, 60, 60);
+        }
+        
+        div{
+            background-color: antiquewhite;
+        }
+        #first{
+            background-color: aqua
+        }
+       
+        .container{
+            background-color: blue
+
+        }
+        .red{
+            background-color: blanchedalmond;
+        }
+        #head{
+            background-color: violet;
+        }
+    
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+
