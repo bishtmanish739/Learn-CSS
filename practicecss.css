@@ -2,34 +2,37 @@
     margin: 0;
     padding: 0;
 }
-#dajyuhead{
-    color: black;
-    
-    
-}
-#head{
-    background-color: green;
-    font: 30px;
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-}
-.footer{
-    margin-top: 10px;
-    background-color: green;
-    height: 100px;
-    text-align: center;
-    border: 4px solid red;
-    border-radius: 10px;
-}
-.content{
-    background-color: white;
-    color: black;
-    width: fit-content;
-}
-.nav{
-    width: fit-content;
+.navbar{
     background-color: black;
     color: white;
-    font: 25px;
+    height: 70px;
+}
+.navbar ul li {
+   display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.right{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    height: 90vh;
+    width: 50%;
+}
+.left{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    height: 90vh;
+    width: 50%;
+}
+.footer{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
 }
