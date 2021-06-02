@@ -4,7 +4,8 @@ display: inline-block;
 border: black solid;
 border-radius: 5px;
 
-width: 100px;
+width: 150px;
+font-size: 40px;
 }
 .box2{
     
@@ -12,10 +13,11 @@ width: 100px;
     background-color: rgb(221, 153, 64);
     border: black solid;
     border-radius: 5px;
-    width: 100px;
+    width: 160px;
     height:fit-content;
     text-align: center;
     font-style: italic;
+    font-size: 1.67em;
     font-weight: bold;
     text-transform: capitalize;
     font-family: sans-serif, monospace;
