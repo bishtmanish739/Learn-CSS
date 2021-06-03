@@ -4,54 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>day 8 animation</title>
     <style>
-        ul{
-            display: inline-grid;
-            grid-template-columns: auto auto;
+        main{
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
         }
-        ul li{
-            list-style: none;
-            margin: 0px 20px 0px 20px;
+        img{
+            height: 10vh;
+            
+            animation-name: rotate;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
 
         }
-        header{
-            background-color: black;
-            color: white;
+        .progress{
+            height: 3px;
+            animation-name: progressbaranimation;
+            background-color: red;
+            animation-duration: 5s;
         }
-        body{
-            background-color: white;
-        }
-        @media screen and (max-width: 800px) {
-            body{
-                background-color: rebeccapurple;
+        @keyframes rotate {
+            
+            0%{
+               transform: rotate(90deg);
             }
-        }
-        @media screen and (max-width: 600px) {
-            body{
-                background-color: yellow;
+            100%{
+            transform: rotate(360deg);
             }
+            
         }
-        @media screen and (max-width: 500px) {
-            body{
-                background-color: aqua;
+        @keyframes progressbaranimation {
+            0%{
+                width: 0vw;
             }
+            100%{
+                width: 100vw;
+            }
+            
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-            </ul>
-        </nav>
+<div class="progress">
 
-    </header>
-    <main>
+</div>
+<main>
+   <img src="dragon.png" alt="">
 
-    </main>
+</main>
     
 </body>
 </html>
