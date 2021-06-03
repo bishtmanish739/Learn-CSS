@@ -4,93 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice set 6</title>
-   
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
-<style>
-    ul{
-        padding: 4vh;
-    }
-    li{
-        list-style: none;
-        display: inline;
-    }
-    li a{
-        text-decoration: none;
-        color: white;
-        margin-left: 1vh;
-        font-size: 3vh;
+    <title>Document</title>
+    <style>
+        ul{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+        }
+        ul li{
+            list-style: none;
+            margin: 0px 20px 0px 20px;
 
-    }
-    header{
-        background-color: black;
-        color: white;
-        height: 15vh;
-        display: flex;
-    }
-    .navbar{
-        margin-top: 3vh;
-        align-self:flex-start;
-        
-    }
-    .heading{
-        margin-left: 15vh;
-        align-self: center;
-        font-size: 10vh;
-    }
-    main{
-        height: 70vh;
-        background-color: cyan;
-    }
-    footer{
-        display: flex;
-        background-color: black;
-        height: 15vh;
-        color: white;
-        align-self: center;
-    }
-    .footercontent{
-        align-self: flex-end;
-        padding: 2vh;
-        
-        
-    }
-</style>
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+        body{
+            background-color: white;
+        }
+        @media screen and (max-width: 800px) {
+            body{
+                background-color: rebeccapurple;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            body{
+                background-color: yellow;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            body{
+                background-color: aqua;
+            }
+        }
+    </style>
 </head>
 <body>
-   <header>
-    <div class="navbar">
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Our Product</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">Services</a>
-            </li>
-        </ul>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
 
-    </div>
-    <div class="heading">
-        Dajyu Let's Shop Now
-    </div>
-   </header>
-   <main>
-    <div class="right">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, minus.
+    </header>
+    <main>
 
-    </div><div class="left">
-
-    </div>
-   </main>
-    <footer class="footer">
-       <div class="footercontent">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, sit.&copy all right reserved
-       </div>
-    </footer>
+    </main>
     
 </body>
 </html>
