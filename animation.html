@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+        }
+
+        .box {
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: widthAnimate;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            background-color: red;
+            color: black;
+        }
+
+        @keyframes widthAnimate {
+            form {
+                width: 300px;
+            }
+
+            to {
+                width: 600px;
+            }
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            THis is box
+        </div>
+    </div>
+
+</body>
+
+</html>
