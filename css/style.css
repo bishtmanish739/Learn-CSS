@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --main-bgcolor:#421b9e;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: 'Lato', sans-serif;
+   
+    align-self: center;
+    color: white;
+    background-color: var(--main-bgcolor);
+
+}
+
+#page_list{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  
+
+}
+nav{
+    display: flex;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20vw;
+    font-weight: bold;
+    
+
+}
+nav ul li{
+    margin: 10px;
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+  
+    color: green;
+    font-weight: bold;
+}
+.container{
+    min-height: 74vh;
+}
+footer{
+    font-family: 'Lato', sans-serif;
+    height: 12vh;
+    align-self: center;
+    color: white;
+    background-color: black;
+}
